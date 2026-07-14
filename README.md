@@ -8,8 +8,8 @@ Become a Junior Java Backend Developer.
 
 ## Roadmap
 
-- [ ] Java Basics
-- [ ] OOP
+- [✓] Java Basics
+- [✓] OOP
 - [ ] Collections
 - [ ] Exceptions
 - [ ] File I/O
