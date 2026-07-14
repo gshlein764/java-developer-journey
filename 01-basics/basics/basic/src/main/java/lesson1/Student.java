@@ -1,4 +1,6 @@
 package lesson1;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class Student {
     private String name;
@@ -28,5 +30,9 @@ public class Student {
 
     public void birthday() {
         age++;
+    }
+
+    public LocalDateTime dateToday() {
+        return LocalDateTime.now();
     }
 }
