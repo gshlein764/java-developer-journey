@@ -12,7 +12,7 @@ public class Student {
         if (age <= 0) {
             throw new IllegalArgumentException("Age must be positive!");
         }
-        
+
         this.name = name;
         this.age = age;
     }
