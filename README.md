@@ -23,5 +23,3 @@ Become a Junior Java Backend Developer.
 ## Current Sprint
 
 Sprint 1 — Java Basics
-Sprint 2 - OOP
-Sprint 3 - Collections
