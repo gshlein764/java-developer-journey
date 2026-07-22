@@ -1,4 +1,4 @@
-package MiniProjectLibrary;
+package MPLibrary;
 
 public class Book {
     private final String title;

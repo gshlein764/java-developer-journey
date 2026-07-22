@@ -1,4 +1,4 @@
-package MiniProjectLibrary;
+package MPLibrary;
 import java.util.ArrayList;
 import java.util.List;
 
