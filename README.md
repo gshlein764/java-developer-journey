@@ -10,8 +10,8 @@ Become a Junior Java Backend Developer.
 
 - [✓] Java Basics
 - [✓] OOP
-- [ ] Collections
-- [ ] Exceptions
+- [✓] Collections
+- [✓] Exceptions
 - [ ] File I/O
 - [ ] Stream API
 - [ ] Multithreading
@@ -23,3 +23,13 @@ Become a Junior Java Backend Developer.
 ## Current Sprint
 
 Sprint 1 — Java Basics
+Sprint 2 - OOP
+Sprint 3 - Collections:
+1. ArrayList
+2. List
+3. HashMap
+4. Map
+5. Deque
+6. Queue
+7. LinkedList
+Sprint 4 - Exceptions
