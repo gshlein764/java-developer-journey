@@ -1,11 +1,16 @@
 package MiniProjectLibrary;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Library {
-    private final ArrayList<Book> books;
+    private final List<Book> books;
 
     public Library() {
         books = new ArrayList<>();
+    }
+
+    public Book getBook(int index) {
+        return books.get(index);
     }
 
     public void addBook(Book book) {
