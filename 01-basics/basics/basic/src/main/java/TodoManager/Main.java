@@ -1,6 +1,9 @@
 package TodoManager;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Comparator;
 
 public class Main {
     public static void main(String[] args) {
@@ -22,5 +25,16 @@ public class Main {
         taskManager.printTasksByStatus(TaskStatus.NEW);
         System.out.println();
         taskManager.printTasksByPriority(Priority.HIGH);
+
+
+        List<String> doneTasks = taskManager.getTasks().stream()
+                .filter(task -> task.getStatus() == TaskStatus.DONE)
+                .map(task -> task.getDescription())
+                .toList();
+        doneTasks.forEach(x -> System.out.println(x));
+
+        List<Task> sortedTasks = taskManager.getTasks().stream()
+                .sorted(Comparator.comparing(task -> task.getDeadline()))
+                .toList();
     }
 }

@@ -7,6 +7,10 @@ import java.util.NoSuchElementException;
 public class TaskManager {
     private final List<Task> tasks = new ArrayList<>();
 
+    public List<Task> getTasks() {
+        return tasks;
+    }
+
     public void addTask(Task task) {
         if (task == null) {
             throw new IllegalArgumentException("Task cannot be null");
